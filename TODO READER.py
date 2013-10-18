@@ -48,7 +48,7 @@ class Application(Frame):
             YesFileLabel.grid()
 
             for filename in self.filenames:
-                NewButton(filename)
+                self.NewButton(filename)
                 nwrow += 1
                 
         else:
